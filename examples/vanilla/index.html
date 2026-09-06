@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A private Gate Frame workshop for six deterministic generation-v3 families."
+    />
+    <title>Gate Frame — Six-family Workshop</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./main.ts"></script>
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="introduction">
+        <div>
+          <p class="eyebrow">Gate Frame / private family workshop</p>
+          <h1>Ironwork, tuned in the open.</h1>
+        </div>
+        <p>
+          Shape one live frame, then compare all six families through the real public
+          controller. This development workshop is local and unpublished.
+        </p>
+      </header>
+
+      <section class="playground-section" aria-labelledby="playground-heading">
+        <header class="section-heading">
+          <div>
+            <p class="section-index">01 / Live study</p>
+            <h2 id="playground-heading">Generation-v3 playground</h2>
+          </div>
+          <p>Every control updates the mounted controller in place.</p>
+        </header>
+
+        <div class="playground-layout">
+          <article
+            id="courtyard-card"
+            class="courtyard-card"
+            data-canvas="standard"
+            aria-labelledby="courtyard-title"
+          >
+            <div class="card-content">
+              <p class="eyebrow">Lyon · late summer</p>
+              <h3 id="courtyard-title">The quiet courtyard</h3>
+              <p>
+                The owned SVG stays outside this padded content and ignores pointer input.
+              </p>
+              <div class="actions">
+                <button id="visit-button" type="button">Visit courtyard</button>
+                <a href="#courtyard-note">Read note</a>
+              </div>
+              <p id="interaction-status" class="status" aria-live="polite">
+                Frame status: mounting…
+              </p>
+            </div>
+          </article>
+
+          <aside class="control-panel" aria-labelledby="controls-heading">
+            <div class="control-panel-heading">
+              <p class="section-index">Parameters</p>
+              <h3 id="controls-heading">Shape the frame</h3>
+            </div>
+
+            <form id="playground-controls">
+              <div class="control control-seed">
+                <label for="seed-input">Seed</label>
+                <input
+                  id="seed-input"
+                  name="seed"
+                  type="text"
+                  value="family-workshop-example"
+                  autocomplete="off"
+                  spellcheck="false"
+                  required
+                />
+                <p class="control-hint">Use any non-empty phrase.</p>
+              </div>
+
+              <div class="control control-split">
+                <div>
+                  <label for="family-select">Family</label>
+                  <select id="family-select" name="family">
+                    <option value="courtyard">Courtyard</option>
+                    <option value="fleuron">Fleuron</option>
+                    <option value="arcade">Arcade</option>
+                    <option value="vine">Vine</option>
+                    <option value="fan">Fan</option>
+                    <option value="volute">Volute</option>
+                    <option value="auto">Auto from seed</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="crest-select">Crest</label>
+                  <select id="crest-select" name="crest">
+                    <option value="">Family default</option>
+                    <option value="spear">Spear</option>
+                    <option value="fleur">Fleur</option>
+                    <option value="diamond">Diamond</option>
+                    <option value="none">None</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="control">
+                <div class="control-label-row">
+                  <label for="density-input">Density</label>
+                  <output id="density-output" for="density-input">0.58</output>
+                </div>
+                <input
+                  id="density-input"
+                  name="density"
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                  value="0.58"
+                />
+              </div>
+
+              <div class="control">
+                <div class="control-label-row">
+                  <label for="symmetry-input">Symmetry</label>
+                  <output id="symmetry-output" for="symmetry-input">1.00</output>
+                </div>
+                <input
+                  id="symmetry-input"
+                  name="symmetry"
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                  value="1"
+                />
+              </div>
+
+              <div class="control">
+                <div class="control-label-row">
+                  <label for="peak-height-input">Peak height</label>
+                  <output id="peak-height-output" for="peak-height-input">0.35</output>
+                </div>
+                <input
+                  id="peak-height-input"
+                  name="peakHeight"
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                  value="0.35"
+                />
+              </div>
+
+              <div class="control">
+                <div class="control-label-row">
+                  <label for="side-complexity-input">Side detail</label>
+                  <output id="side-complexity-output" for="side-complexity-input">0.50</output>
+                </div>
+                <input
+                  id="side-complexity-input"
+                  name="sideComplexity"
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                  value="0.5"
+                />
+              </div>
+
+              <div class="control">
+                <div class="control-label-row">
+                  <label for="curvature-input">Curvature</label>
+                  <output id="curvature-output" for="curvature-input">0.72</output>
+                </div>
+                <input
+                  id="curvature-input"
+                  name="curvature"
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                  value="0.72"
+                />
+              </div>
+
+              <div class="control control-split">
+                <div>
+                  <label for="palette-select">Paint</label>
+                  <select id="palette-select" name="palette">
+                    <option value="limestone">Limestone</option>
+                    <option value="verdigris">Verdigris</option>
+                    <option value="oxblood">Oxblood</option>
+                    <option value="midnight">Midnight</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="aspect-select">Canvas</label>
+                  <select id="aspect-select" name="aspect">
+                    <option value="standard">Standard</option>
+                    <option value="portrait">Portrait</option>
+                    <option value="panorama">Panorama</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="control-actions">
+                <button id="randomize-button" class="primary-control" type="button">
+                  New seed
+                </button>
+                <button id="reset-button" type="button">Reset</button>
+              </div>
+            </form>
+          </aside>
+        </div>
+      </section>
+
+      <p id="courtyard-note" class="note" tabindex="-1">
+        The playground and every family study use the real <code>card-gate-frame</code> controller. The
+        original content nodes stay in place while one owned overlay is regenerated.
+      </p>
+
+      <section class="gallery-section" aria-labelledby="gallery-heading">
+        <header class="section-heading gallery-heading">
+          <div>
+            <p class="section-index">02 / Seed atlas</p>
+            <h2 id="gallery-heading">The six-family field guide</h2>
+          </div>
+          <div class="gallery-tools">
+            <p>Two live studies per family, all driven by the French ironwork grammar.</p>
+            <button id="shuffle-gallery" type="button">Shuffle collection</button>
+          </div>
+        </header>
+        <p id="gallery-status" class="visually-hidden" aria-live="polite"></p>
+        <div id="variation-gallery" class="variation-grid"></div>
+      </section>
+    </main>
+  </body>
+</html>

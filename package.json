@@ -1,0 +1,80 @@
+{
+  "name": "card-gate-frame",
+  "version": "1.0.0",
+  "description": "Deterministic ornamental SVG frames for prepared HTML containers and DOM-free generation.",
+  "keywords": [
+    "svg",
+    "frame",
+    "ornament",
+    "deterministic",
+    "typescript"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "sideEffects": false,
+  "packageManager": "pnpm@12.3.4",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "26.8.1",
+      "onFail": "error"
+    }
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./core": {
+      "types": "./dist/core/index.d.ts",
+      "import": "./dist/core/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "pnpm build && vite examples/vanilla",
+    "build": "tsdown",
+    "example:build": "pnpm build && vite build examples/vanilla",
+    "check:format": "biome format .",
+    "check:lint": "biome lint src tests scripts examples package.json playwright.config.ts tsdown.config.ts vitest.config.ts tsconfig*.json",
+    "check:types": "tsc -p tsconfig.core.json --noEmit && tsc -p tsconfig.dom.json --noEmit && tsc -p tsconfig.test.json --noEmit",
+    "check": "pnpm check:format && pnpm check:lint && pnpm check:types",
+    "format": "biome check --write .",
+    "test": "vitest run",
+    "test:release-properties": "GATE_FRAME_PROPERTY_RUNS=10000 vitest run tests/properties --testTimeout=60000",
+    "test:browser": "playwright test",
+    "test:package": "node scripts/verify-package.mjs",
+    "test:all": "pnpm verify && pnpm test:release-properties",
+    "test:watch": "vitest",
+    "verify": "pnpm check && pnpm test && pnpm build && pnpm test:browser && pnpm test:package",
+    "prepublishOnly": "pnpm test:all"
+  },
+  "devDependencies": {
+    "@arethetypeswrong/cli": "0.18.5",
+    "@biomejs/biome": "2.5.12",
+    "@playwright/test": "1.63.0",
+    "@types/node": "26.4.1",
+    "fast-check": "4.9.0",
+    "publint": "0.3.24",
+    "tsdown": "0.23.0",
+    "typescript": "7.0.2",
+    "vite": "8.2.2",
+    "vitest": "5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmarlats/card-gate-frame.git"
+  },
+  "homepage": "https://github.com/fmarlats/card-gate-frame",
+  "bugs": {
+    "url": "https://github.com/fmarlats/card-gate-frame/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

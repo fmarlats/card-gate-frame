@@ -1,0 +1,849 @@
+{
+  "generationVersion": 3,
+  "paint": {
+    "stroke": "#202427",
+    "surface": "#f2eadb"
+  },
+  "vectors": [
+    {
+      "id": "courtyard-atlas-0000",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "courtyard",
+          "seed": "atlas-0000"
+        }
+      },
+      "effective": {
+        "family": "courtyard",
+        "crest": "spear"
+      },
+      "files": {
+        "geometry": {
+          "filename": "courtyard-atlas-0000.geometry.json",
+          "byteLength": 8048,
+          "sha256": "ae0c52c376ae5e6ef5cd34443aea98dd7034a79a3d75093b7c424be8541ac591"
+        },
+        "svg": {
+          "filename": "courtyard-atlas-0000.svg",
+          "byteLength": 2036,
+          "sha256": "346696deb17f1b4ef50f383ec88cdb592f0856697fda9ab7750e8bd9b139930a"
+        }
+      }
+    },
+    {
+      "id": "courtyard-atlas-0004",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "courtyard",
+          "seed": "atlas-0004"
+        }
+      },
+      "effective": {
+        "family": "courtyard",
+        "crest": "spear"
+      },
+      "files": {
+        "geometry": {
+          "filename": "courtyard-atlas-0004.geometry.json",
+          "byteLength": 8032,
+          "sha256": "6d087fed71906b714196aea0ac8f462c3c46c1e8fa99f4146b1c6ad1d7d6d75d"
+        },
+        "svg": {
+          "filename": "courtyard-atlas-0004.svg",
+          "byteLength": 2020,
+          "sha256": "e60137c1b3ee91c782b92781886aae9a8b4db17715b625486236321df4be1ef2"
+        }
+      }
+    },
+    {
+      "id": "courtyard-atlas-0271",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "courtyard",
+          "seed": "atlas-0271"
+        }
+      },
+      "effective": {
+        "family": "courtyard",
+        "crest": "spear"
+      },
+      "files": {
+        "geometry": {
+          "filename": "courtyard-atlas-0271.geometry.json",
+          "byteLength": 8054,
+          "sha256": "69dc510077a0cea6f490e8fce36f1d23ec36aa7cd9e249df472744ad9d116c90"
+        },
+        "svg": {
+          "filename": "courtyard-atlas-0271.svg",
+          "byteLength": 2042,
+          "sha256": "b680c3e9696ffcaf729be6c996e3f439ab9708d069bde705b2dc6427cabce2bd"
+        }
+      }
+    },
+    {
+      "id": "fleuron-atlas-0000",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "fleuron",
+          "seed": "atlas-0000"
+        }
+      },
+      "effective": {
+        "family": "fleuron",
+        "crest": "fleur"
+      },
+      "files": {
+        "geometry": {
+          "filename": "fleuron-atlas-0000.geometry.json",
+          "byteLength": 11164,
+          "sha256": "3f5c94db5c5330dd147d3d7a8d98009275a9c0304e1a6095fa156741f38e7bd6"
+        },
+        "svg": {
+          "filename": "fleuron-atlas-0000.svg",
+          "byteLength": 2971,
+          "sha256": "b69386ffd22361f157b3adaedcb56afd2986c2dbd8aee8e917b5df0e93019556"
+        }
+      }
+    },
+    {
+      "id": "fleuron-atlas-0004",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "fleuron",
+          "seed": "atlas-0004"
+        }
+      },
+      "effective": {
+        "family": "fleuron",
+        "crest": "fleur"
+      },
+      "files": {
+        "geometry": {
+          "filename": "fleuron-atlas-0004.geometry.json",
+          "byteLength": 11166,
+          "sha256": "eea12fe2ef26c3185ff5f9fe5db36fb89a8dce2f4cec8d11d2dc540bfae7414d"
+        },
+        "svg": {
+          "filename": "fleuron-atlas-0004.svg",
+          "byteLength": 2973,
+          "sha256": "01366c25e04edcef63e2bbeaf2a03e5754142173c753f0e29012903659c3c6e9"
+        }
+      }
+    },
+    {
+      "id": "fleuron-atlas-0271",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "fleuron",
+          "seed": "atlas-0271"
+        }
+      },
+      "effective": {
+        "family": "fleuron",
+        "crest": "fleur"
+      },
+      "files": {
+        "geometry": {
+          "filename": "fleuron-atlas-0271.geometry.json",
+          "byteLength": 11166,
+          "sha256": "bd3d8d99bdaab0ab2082eb827dcc5bd105f53c849c1528a96e585f81329c24ae"
+        },
+        "svg": {
+          "filename": "fleuron-atlas-0271.svg",
+          "byteLength": 2973,
+          "sha256": "fa5f1377db751526dbe6cf02b52dc5af950f88f7320462ceb72207f09b9c3aac"
+        }
+      }
+    },
+    {
+      "id": "arcade-atlas-0000",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "arcade",
+          "seed": "atlas-0000"
+        }
+      },
+      "effective": {
+        "family": "arcade",
+        "crest": "diamond"
+      },
+      "files": {
+        "geometry": {
+          "filename": "arcade-atlas-0000.geometry.json",
+          "byteLength": 7771,
+          "sha256": "e436934aa11b3f783acf81c98812357e570869f9cf45df731db3db508283f29d"
+        },
+        "svg": {
+          "filename": "arcade-atlas-0000.svg",
+          "byteLength": 1854,
+          "sha256": "1fc9509783fa14e8d589a87bd4ad6c6104cd33728eafec7034a290b10b6af660"
+        }
+      }
+    },
+    {
+      "id": "arcade-atlas-0004",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "arcade",
+          "seed": "atlas-0004"
+        }
+      },
+      "effective": {
+        "family": "arcade",
+        "crest": "diamond"
+      },
+      "files": {
+        "geometry": {
+          "filename": "arcade-atlas-0004.geometry.json",
+          "byteLength": 7765,
+          "sha256": "21f5fa09416066fa2a12eb1f358fa421c43d7cbfe5465a4c06a112aa271056d0"
+        },
+        "svg": {
+          "filename": "arcade-atlas-0004.svg",
+          "byteLength": 1848,
+          "sha256": "9176df43337e5ddc739b5dbab0962ed6ef346f623053397f01a99861dc287b3b"
+        }
+      }
+    },
+    {
+      "id": "arcade-atlas-0271",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "arcade",
+          "seed": "atlas-0271"
+        }
+      },
+      "effective": {
+        "family": "arcade",
+        "crest": "diamond"
+      },
+      "files": {
+        "geometry": {
+          "filename": "arcade-atlas-0271.geometry.json",
+          "byteLength": 7779,
+          "sha256": "aa78fdfa4200add357b0646c06d167d5da3fe03e9c4bd2ed8459255bd3dff3d9"
+        },
+        "svg": {
+          "filename": "arcade-atlas-0271.svg",
+          "byteLength": 1862,
+          "sha256": "4844bd7148ac64ed45f89af667269065b9c9554f8b8482cc02608d9b21aff26e"
+        }
+      }
+    },
+    {
+      "id": "vine-atlas-0000",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "vine",
+          "seed": "atlas-0000"
+        }
+      },
+      "effective": {
+        "family": "vine",
+        "crest": "fleur"
+      },
+      "files": {
+        "geometry": {
+          "filename": "vine-atlas-0000.geometry.json",
+          "byteLength": 15708,
+          "sha256": "989b9983ddca5585b914eabe0a40599d7b67544d6d56fe12458f1e8fe3469daf"
+        },
+        "svg": {
+          "filename": "vine-atlas-0000.svg",
+          "byteLength": 4238,
+          "sha256": "e4d8ec439b7062bc5e65450e7a8e64b31260299fb428a2a3bc33f37553898130"
+        }
+      }
+    },
+    {
+      "id": "vine-atlas-0004",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "vine",
+          "seed": "atlas-0004"
+        }
+      },
+      "effective": {
+        "family": "vine",
+        "crest": "fleur"
+      },
+      "files": {
+        "geometry": {
+          "filename": "vine-atlas-0004.geometry.json",
+          "byteLength": 15728,
+          "sha256": "98d6d0e1fd06022d333ea1a798cb38e704ef00c4b61a1c73394a75f5378ea13c"
+        },
+        "svg": {
+          "filename": "vine-atlas-0004.svg",
+          "byteLength": 4258,
+          "sha256": "dbadce4b8ae0daa0af64f6aab840b0d1e80ab00426207291b41d4231e8e78e9a"
+        }
+      }
+    },
+    {
+      "id": "vine-atlas-0271",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "vine",
+          "seed": "atlas-0271"
+        }
+      },
+      "effective": {
+        "family": "vine",
+        "crest": "fleur"
+      },
+      "files": {
+        "geometry": {
+          "filename": "vine-atlas-0271.geometry.json",
+          "byteLength": 15722,
+          "sha256": "b53e389175ef790d0b1b228cc2b72ba117d130ba09ef379e8549ab0a94530ff9"
+        },
+        "svg": {
+          "filename": "vine-atlas-0271.svg",
+          "byteLength": 4252,
+          "sha256": "a18da34845d7ed3d9cb78117e7758f7b19948229b119ff2516ea4556402f3f3f"
+        }
+      }
+    },
+    {
+      "id": "fan-atlas-0000",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "fan",
+          "seed": "atlas-0000"
+        }
+      },
+      "effective": {
+        "family": "fan",
+        "crest": "diamond"
+      },
+      "files": {
+        "geometry": {
+          "filename": "fan-atlas-0000.geometry.json",
+          "byteLength": 6205,
+          "sha256": "a858d759ded093cac782b4f6a13935f381614532a543efac997be6d7ee4e9cdc"
+        },
+        "svg": {
+          "filename": "fan-atlas-0000.svg",
+          "byteLength": 1399,
+          "sha256": "d88b84f2db52deb74b31c7df9fdf47741e4ac0a1d2b582340b9dabd4c8d87ffd"
+        }
+      }
+    },
+    {
+      "id": "fan-atlas-0004",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "fan",
+          "seed": "atlas-0004"
+        }
+      },
+      "effective": {
+        "family": "fan",
+        "crest": "diamond"
+      },
+      "files": {
+        "geometry": {
+          "filename": "fan-atlas-0004.geometry.json",
+          "byteLength": 6207,
+          "sha256": "9f0513ab328bc52024cb59715ca1cdcaa421140cecb3277e5f7be76123a1d948"
+        },
+        "svg": {
+          "filename": "fan-atlas-0004.svg",
+          "byteLength": 1401,
+          "sha256": "50f77a0a11297675664bd9169b2af07c612d6815a9140bd68d3f0b3508a9b1a7"
+        }
+      }
+    },
+    {
+      "id": "fan-atlas-0271",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "fan",
+          "seed": "atlas-0271"
+        }
+      },
+      "effective": {
+        "family": "fan",
+        "crest": "diamond"
+      },
+      "files": {
+        "geometry": {
+          "filename": "fan-atlas-0271.geometry.json",
+          "byteLength": 6203,
+          "sha256": "4bb65ce7a76046d9013a1774684b9cd4baaa530b017f5e9a65af54e1694fec16"
+        },
+        "svg": {
+          "filename": "fan-atlas-0271.svg",
+          "byteLength": 1397,
+          "sha256": "50d957ad5b965cc8bbc6a514cec8e2210ba08962006c4a535ec893e5c0303dc4"
+        }
+      }
+    },
+    {
+      "id": "volute-atlas-0000",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "volute",
+          "seed": "atlas-0000"
+        }
+      },
+      "effective": {
+        "family": "volute",
+        "crest": "fleur"
+      },
+      "files": {
+        "geometry": {
+          "filename": "volute-atlas-0000.geometry.json",
+          "byteLength": 11155,
+          "sha256": "bd936f82c21e93c3338be9a39a70b2677a023ec60e67ddd6b8fb17997b9e6bc0"
+        },
+        "svg": {
+          "filename": "volute-atlas-0000.svg",
+          "byteLength": 2963,
+          "sha256": "ba192300fdcb018891618eb14618e5c38bec92dda1884bb1f2b8e7070b95602c"
+        }
+      }
+    },
+    {
+      "id": "volute-atlas-0004",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "volute",
+          "seed": "atlas-0004"
+        }
+      },
+      "effective": {
+        "family": "volute",
+        "crest": "fleur"
+      },
+      "files": {
+        "geometry": {
+          "filename": "volute-atlas-0004.geometry.json",
+          "byteLength": 11157,
+          "sha256": "f0d9b76b608a27280bc9a225a5a0356d67fd9d385880920ec3653af123f7b479"
+        },
+        "svg": {
+          "filename": "volute-atlas-0004.svg",
+          "byteLength": 2965,
+          "sha256": "4603d8de8bab46cc31139130fc01f6d405ffd5e579f4a1e859ee1d6b8f3bac1f"
+        }
+      }
+    },
+    {
+      "id": "volute-atlas-0271",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "volute",
+          "seed": "atlas-0271"
+        }
+      },
+      "effective": {
+        "family": "volute",
+        "crest": "fleur"
+      },
+      "files": {
+        "geometry": {
+          "filename": "volute-atlas-0271.geometry.json",
+          "byteLength": 11157,
+          "sha256": "0067280c1c662ee9e6ca04f095b5da08ea64326c61bdae8eb3e0175f9ac0cf8d"
+        },
+        "svg": {
+          "filename": "volute-atlas-0271.svg",
+          "byteLength": 2965,
+          "sha256": "2e9c65b1a8945bf73dfb7ad1dc0c3061d074965c5188fa4b66bdf51331f5f46e"
+        }
+      }
+    },
+    {
+      "id": "responsive-courtyard-200",
+      "input": {
+        "dimensions": {
+          "width": 200,
+          "height": 320
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "courtyard",
+          "seed": "atlas-0000"
+        }
+      },
+      "effective": {
+        "family": "courtyard",
+        "crest": "spear"
+      },
+      "files": {
+        "svg": {
+          "filename": "responsive-courtyard-200.svg",
+          "byteLength": 1532,
+          "sha256": "0a64da0ce03c0b88eeac7d881b70e7b3905d0fa8938e5c1b67cbefdd297161b4"
+        }
+      }
+    },
+    {
+      "id": "responsive-courtyard-960",
+      "input": {
+        "dimensions": {
+          "width": 960,
+          "height": 240
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "courtyard",
+          "seed": "atlas-0000"
+        }
+      },
+      "effective": {
+        "family": "courtyard",
+        "crest": "spear"
+      },
+      "files": {
+        "svg": {
+          "filename": "responsive-courtyard-960.svg",
+          "byteLength": 2080,
+          "sha256": "53b16428a18a13b65c511352792c4f02dbc6f22d2384f43d6fa174ddeded0b1a"
+        }
+      }
+    },
+    {
+      "id": "responsive-fleuron-200",
+      "input": {
+        "dimensions": {
+          "width": 200,
+          "height": 320
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "fleuron",
+          "seed": "atlas-0000"
+        }
+      },
+      "effective": {
+        "family": "fleuron",
+        "crest": "fleur"
+      },
+      "files": {
+        "svg": {
+          "filename": "responsive-fleuron-200.svg",
+          "byteLength": 2196,
+          "sha256": "6ae7a1509c0fc3a91a29ec9fd24fa0843fa98dcf1db9a4b5657aeb556ae81b7a"
+        }
+      }
+    },
+    {
+      "id": "responsive-fleuron-960",
+      "input": {
+        "dimensions": {
+          "width": 960,
+          "height": 240
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "fleuron",
+          "seed": "atlas-0000"
+        }
+      },
+      "effective": {
+        "family": "fleuron",
+        "crest": "fleur"
+      },
+      "files": {
+        "svg": {
+          "filename": "responsive-fleuron-960.svg",
+          "byteLength": 2971,
+          "sha256": "e9c6e385c4ff00ccacb26555ff840e7f74d087d5062d0519348217b604a07db7"
+        }
+      }
+    },
+    {
+      "id": "responsive-arcade-200",
+      "input": {
+        "dimensions": {
+          "width": 200,
+          "height": 320
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "arcade",
+          "seed": "atlas-0000"
+        }
+      },
+      "effective": {
+        "family": "arcade",
+        "crest": "diamond"
+      },
+      "files": {
+        "svg": {
+          "filename": "responsive-arcade-200.svg",
+          "byteLength": 1186,
+          "sha256": "a455f0c053f65d4d32a0dc0b388113888c5b282173c89e3cd79315cfb905b10b"
+        }
+      }
+    },
+    {
+      "id": "responsive-arcade-960",
+      "input": {
+        "dimensions": {
+          "width": 960,
+          "height": 240
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "arcade",
+          "seed": "atlas-0000"
+        }
+      },
+      "effective": {
+        "family": "arcade",
+        "crest": "diamond"
+      },
+      "files": {
+        "svg": {
+          "filename": "responsive-arcade-960.svg",
+          "byteLength": 1893,
+          "sha256": "adefad48576613d23aa60d40135c612938b62250c9a082fca07e39e0f84a9417"
+        }
+      }
+    },
+    {
+      "id": "responsive-vine-200",
+      "input": {
+        "dimensions": {
+          "width": 200,
+          "height": 320
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "vine",
+          "seed": "atlas-0000"
+        }
+      },
+      "effective": {
+        "family": "vine",
+        "crest": "fleur"
+      },
+      "files": {
+        "svg": {
+          "filename": "responsive-vine-200.svg",
+          "byteLength": 2625,
+          "sha256": "490ecb31d02fc665436dab53eb0f34c59aac9b39ca5d5bea6cbfb7367832939e"
+        }
+      }
+    },
+    {
+      "id": "responsive-vine-960",
+      "input": {
+        "dimensions": {
+          "width": 960,
+          "height": 240
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "vine",
+          "seed": "atlas-0000"
+        }
+      },
+      "effective": {
+        "family": "vine",
+        "crest": "fleur"
+      },
+      "files": {
+        "svg": {
+          "filename": "responsive-vine-960.svg",
+          "byteLength": 4283,
+          "sha256": "831200c47cf0f73574ce38cdd60b5a37fa696fdd73f43c074594e275c5794297"
+        }
+      }
+    },
+    {
+      "id": "responsive-fan-200",
+      "input": {
+        "dimensions": {
+          "width": 200,
+          "height": 320
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "fan",
+          "seed": "atlas-0000"
+        }
+      },
+      "effective": {
+        "family": "fan",
+        "crest": "diamond"
+      },
+      "files": {
+        "svg": {
+          "filename": "responsive-fan-200.svg",
+          "byteLength": 1301,
+          "sha256": "49db3959f3190dbb93a40df74a302ec22145cad50990556317db0a9273a200bf"
+        }
+      }
+    },
+    {
+      "id": "responsive-fan-960",
+      "input": {
+        "dimensions": {
+          "width": 960,
+          "height": 240
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "fan",
+          "seed": "atlas-0000"
+        }
+      },
+      "effective": {
+        "family": "fan",
+        "crest": "diamond"
+      },
+      "files": {
+        "svg": {
+          "filename": "responsive-fan-960.svg",
+          "byteLength": 1441,
+          "sha256": "8dae140fcddf4fa493437efa25b4f92d352798a20f231145dd4197fee2d5aa40"
+        }
+      }
+    },
+    {
+      "id": "responsive-volute-200",
+      "input": {
+        "dimensions": {
+          "width": 200,
+          "height": 320
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "volute",
+          "seed": "atlas-0000"
+        }
+      },
+      "effective": {
+        "family": "volute",
+        "crest": "fleur"
+      },
+      "files": {
+        "svg": {
+          "filename": "responsive-volute-200.svg",
+          "byteLength": 2196,
+          "sha256": "6ae7a1509c0fc3a91a29ec9fd24fa0843fa98dcf1db9a4b5657aeb556ae81b7a"
+        }
+      }
+    },
+    {
+      "id": "responsive-volute-960",
+      "input": {
+        "dimensions": {
+          "width": 960,
+          "height": 240
+        },
+        "options": {
+          "generationVersion": 3,
+          "family": "volute",
+          "seed": "atlas-0000"
+        }
+      },
+      "effective": {
+        "family": "volute",
+        "crest": "fleur"
+      },
+      "files": {
+        "svg": {
+          "filename": "responsive-volute-960.svg",
+          "byteLength": 2991,
+          "sha256": "065e39763b9ba973635887bb119758e179635b225fd92316ff77fc8560841b02"
+        }
+      }
+    }
+  ]
+}

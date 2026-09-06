@@ -1,0 +1,26 @@
+export { generateGate } from "./dispatch.js";
+export { renderGateSVG } from "./svg.js";
+export type {
+  GateCrest,
+  GateDimensions,
+  GateFamily,
+  GateGenerationOptions,
+  GateGenerationOptionsV1,
+  GateGenerationOptionsV2,
+  GateGenerationOptionsV3,
+  GateGenerationVersion,
+  GateGeometry,
+  GateGeometryBase,
+  GateGeometryV1,
+  GateGeometryV2,
+  GateGeometryV3,
+  GateInsets,
+  GatePaintOptions,
+  GatePath,
+  GatePathCommand,
+  GateSeed,
+  NormalizedGateGenerationOptions,
+  NormalizedGateGenerationOptionsV1,
+  NormalizedGateGenerationOptionsV2,
+  NormalizedGateGenerationOptionsV3,
+} from "./types.js";

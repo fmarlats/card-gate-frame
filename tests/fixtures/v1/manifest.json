@@ -1,0 +1,93 @@
+{
+  "generationVersion": 1,
+  "paint": {
+    "stroke": "#202427",
+    "surface": "#f2eadb"
+  },
+  "vectors": [
+    {
+      "id": "narrow",
+      "input": {
+        "dimensions": {
+          "width": 200,
+          "height": 320
+        },
+        "options": {
+          "seed": "courtyard-narrow",
+          "family": "courtyard",
+          "generationVersion": 1,
+          "density": 0.42,
+          "curvature": 0.72
+        }
+      },
+      "files": {
+        "geometry": {
+          "filename": "narrow.geometry.json",
+          "byteLength": 3222,
+          "sha256": "34f0d7179fa392536d3945f89e06f260f2f0f02a5d99106e95450c95e6c11e6d"
+        },
+        "svg": {
+          "filename": "narrow.svg",
+          "byteLength": 794,
+          "sha256": "47b556b7b2bfcf1c8d95664d225263ee315cb93beb8bcf4ca2ebfb704fc46d3d"
+        }
+      }
+    },
+    {
+      "id": "standard",
+      "input": {
+        "dimensions": {
+          "width": 300,
+          "height": 342
+        },
+        "options": {
+          "seed": "courtyard-standard",
+          "family": "courtyard",
+          "generationVersion": 1,
+          "density": 0.55,
+          "curvature": 0.65
+        }
+      },
+      "files": {
+        "geometry": {
+          "filename": "standard.geometry.json",
+          "byteLength": 3262,
+          "sha256": "813efffc29869f3cb758edb0c9659d28c3b3b98196ecb6a6e97779bb7659a513"
+        },
+        "svg": {
+          "filename": "standard.svg",
+          "byteLength": 826,
+          "sha256": "aa5c7e2af1ee8dc6935e7128b51dfabeceb953742e4edb12efc92eb4cb34408c"
+        }
+      }
+    },
+    {
+      "id": "wide",
+      "input": {
+        "dimensions": {
+          "width": 520,
+          "height": 300
+        },
+        "options": {
+          "seed": "courtyard-wide",
+          "family": "courtyard",
+          "generationVersion": 1,
+          "density": 0.68,
+          "curvature": 0.58
+        }
+      },
+      "files": {
+        "geometry": {
+          "filename": "wide.geometry.json",
+          "byteLength": 3258,
+          "sha256": "cee2d60c36b42c05b9e50a7f0b79d6823f79a612ccd75e4d516dece72c17992f"
+        },
+        "svg": {
+          "filename": "wide.svg",
+          "byteLength": 828,
+          "sha256": "c993e3fc2b84fb32ff81b610250c05965e44627bfb72b24b324dac59eb17a3a5"
+        }
+      }
+    }
+  ]
+}

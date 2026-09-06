@@ -1,0 +1,585 @@
+{
+  "generationVersion": 2,
+  "paint": {
+    "stroke": "#202427",
+    "surface": "#f2eadb"
+  },
+  "vectors": [
+    {
+      "id": "courtyard-atlas-0000",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 2,
+          "seed": "atlas-0000",
+          "family": "courtyard"
+        }
+      },
+      "effective": {
+        "family": "courtyard",
+        "crest": "none"
+      },
+      "expectedCompositionIndex": 0,
+      "structuralSignature": "{\"normalized\":{\"family\":\"courtyard\",\"crest\":\"none\"},\"structuralPaths\":[\"MLLLZ\",\"MCC\",\"MCC\",\"MCC\",\"MCC\",\"MCC\",\"MCC\"],\"decorativePaths\":[\"MCC\",\"MCC\"],\"upperPaths\":[{\"collection\":\"structuralPaths\",\"index\":1,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":2,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":3,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":4,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":5,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":6,\"yClasses\":\"RUUUUUR\"}]}",
+      "files": {
+        "geometry": {
+          "filename": "courtyard-atlas-0000.geometry.json",
+          "byteLength": 5057,
+          "sha256": "c9edf674191c2584f119cc9594f16ec42222b69f570c5a35c93400b28e0ca5f9"
+        },
+        "svg": {
+          "filename": "courtyard-atlas-0000.svg",
+          "byteLength": 1426,
+          "sha256": "2d7a91c707d8301bd98ae019df1872f53bae8c8bd7cc6d611b6289179e23222b"
+        }
+      }
+    },
+    {
+      "id": "courtyard-atlas-0004",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 2,
+          "seed": "atlas-0004",
+          "family": "courtyard"
+        }
+      },
+      "effective": {
+        "family": "courtyard",
+        "crest": "spear"
+      },
+      "expectedCompositionIndex": 2,
+      "structuralSignature": "{\"normalized\":{\"family\":\"courtyard\",\"crest\":\"spear\"},\"structuralPaths\":[\"MLLLZ\",\"MLQL\",\"ML\",\"MCC\",\"MCC\",\"MCC\",\"MCC\"],\"decorativePaths\":[\"MCC\",\"MCC\",\"MLMLLLZ\"],\"upperPaths\":[{\"collection\":\"structuralPaths\",\"index\":1,\"yClasses\":\"RUUUR\"},{\"collection\":\"structuralPaths\",\"index\":2,\"yClasses\":\"RU\"},{\"collection\":\"structuralPaths\",\"index\":3,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":4,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":5,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":6,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"decorativePaths\",\"index\":2,\"yClasses\":\"RUUUUU\"}]}",
+      "files": {
+        "geometry": {
+          "filename": "courtyard-atlas-0004.geometry.json",
+          "byteLength": 5188,
+          "sha256": "1b6730ba1884554052d7a832b9d05cd9bd285962f5359ce7b641eea8c6b641cc"
+        },
+        "svg": {
+          "filename": "courtyard-atlas-0004.svg",
+          "byteLength": 1358,
+          "sha256": "952631281f2f489e4c4c8c124447f740fb593054a43372943cd7379df6a27977"
+        }
+      }
+    },
+    {
+      "id": "courtyard-atlas-0271",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 2,
+          "seed": "atlas-0271",
+          "family": "courtyard"
+        }
+      },
+      "effective": {
+        "family": "courtyard",
+        "crest": "none"
+      },
+      "expectedCompositionIndex": 1,
+      "structuralSignature": "{\"normalized\":{\"family\":\"courtyard\",\"crest\":\"none\"},\"structuralPaths\":[\"MLLLZ\",\"MQ\",\"MQ\",\"MQ\",\"MCC\",\"MCC\",\"MCC\",\"MCC\",\"MCC\",\"MCC\"],\"decorativePaths\":[\"MCC\",\"MCC\"],\"upperPaths\":[{\"collection\":\"structuralPaths\",\"index\":1,\"yClasses\":\"RUR\"},{\"collection\":\"structuralPaths\",\"index\":2,\"yClasses\":\"RUR\"},{\"collection\":\"structuralPaths\",\"index\":3,\"yClasses\":\"RUR\"},{\"collection\":\"structuralPaths\",\"index\":4,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":5,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":6,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":7,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":8,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":9,\"yClasses\":\"RUUUUUR\"}]}",
+      "files": {
+        "geometry": {
+          "filename": "courtyard-atlas-0271.geometry.json",
+          "byteLength": 5648,
+          "sha256": "7f5eeccd1fea05905d80da97542dad34057b16776d40aa8d0673095493ac54ec"
+        },
+        "svg": {
+          "filename": "courtyard-atlas-0271.svg",
+          "byteLength": 1576,
+          "sha256": "bd707bdadf5aa3647641116b2a514c80ec124bd3a858f29941d0ae4b55ac114d"
+        }
+      }
+    },
+    {
+      "id": "fleuron-atlas-0000",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 2,
+          "seed": "atlas-0000",
+          "family": "fleuron"
+        }
+      },
+      "effective": {
+        "family": "fleuron",
+        "crest": "spear"
+      },
+      "expectedCompositionIndex": 1,
+      "structuralSignature": "{\"normalized\":{\"family\":\"fleuron\",\"crest\":\"spear\"},\"structuralPaths\":[\"MLLLZ\",\"MCC\",\"MQ\",\"MQ\",\"MQ\"],\"decorativePaths\":[\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MLMLLLZ\"],\"upperPaths\":[{\"collection\":\"structuralPaths\",\"index\":1,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":2,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":3,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":4,\"yClasses\":\"RUU\"},{\"collection\":\"decorativePaths\",\"index\":0,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":1,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":2,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":5,\"yClasses\":\"RUUUUU\"}]}",
+      "files": {
+        "geometry": {
+          "filename": "fleuron-atlas-0000.geometry.json",
+          "byteLength": 5058,
+          "sha256": "354ee9607d0839a4d7a16ded75e7be4e994f5dd70e79644651786577acd35550"
+        },
+        "svg": {
+          "filename": "fleuron-atlas-0000.svg",
+          "byteLength": 1306,
+          "sha256": "486d470f753476c9b53a2a8171b2645debebd5d7d32ee93d9e4bf7b7c8bb26d0"
+        }
+      }
+    },
+    {
+      "id": "fleuron-atlas-0004",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 2,
+          "seed": "atlas-0004",
+          "family": "fleuron"
+        }
+      },
+      "effective": {
+        "family": "fleuron",
+        "crest": "none"
+      },
+      "expectedCompositionIndex": 0,
+      "structuralSignature": "{\"normalized\":{\"family\":\"fleuron\",\"crest\":\"none\"},\"structuralPaths\":[\"MLLLZ\",\"MCC\",\"MCC\",\"ML\",\"MQ\",\"MQ\",\"MQ\"],\"decorativePaths\":[\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\"],\"upperPaths\":[{\"collection\":\"structuralPaths\",\"index\":1,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":2,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":3,\"yClasses\":\"RU\"},{\"collection\":\"structuralPaths\",\"index\":4,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":5,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":6,\"yClasses\":\"RUU\"},{\"collection\":\"decorativePaths\",\"index\":0,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":1,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":2,\"yClasses\":\"UUUUU\"}]}",
+      "files": {
+        "geometry": {
+          "filename": "fleuron-atlas-0004.geometry.json",
+          "byteLength": 5156,
+          "sha256": "9223723c9ccfab10974af93f5683b0f513ec3d6d86283aafa4f6907f0a0b48be"
+        },
+        "svg": {
+          "filename": "fleuron-atlas-0004.svg",
+          "byteLength": 1395,
+          "sha256": "62a0f2aa2dee2b5136fb3f66c3b63bf383c86a97d3668e05057ba8a1205c68bf"
+        }
+      }
+    },
+    {
+      "id": "fleuron-atlas-0271",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 2,
+          "seed": "atlas-0271",
+          "family": "fleuron"
+        }
+      },
+      "effective": {
+        "family": "fleuron",
+        "crest": "spear"
+      },
+      "expectedCompositionIndex": 2,
+      "structuralSignature": "{\"normalized\":{\"family\":\"fleuron\",\"crest\":\"spear\"},\"structuralPaths\":[\"MLLLZ\",\"MQ\",\"MQ\",\"MQ\"],\"decorativePaths\":[\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MCC\",\"MCC\",\"MLMLLLZ\"],\"upperPaths\":[{\"collection\":\"structuralPaths\",\"index\":1,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":2,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":3,\"yClasses\":\"RUU\"},{\"collection\":\"decorativePaths\",\"index\":0,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":1,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":2,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":5,\"yClasses\":\"RUUUUU\"}]}",
+      "files": {
+        "geometry": {
+          "filename": "fleuron-atlas-0271.geometry.json",
+          "byteLength": 4752,
+          "sha256": "90d7bb9ce1bb678941a455c585e8e4a867baaff2749c8fbb58b4d16f3db3607b"
+        },
+        "svg": {
+          "filename": "fleuron-atlas-0271.svg",
+          "byteLength": 1251,
+          "sha256": "b2d61a5b4fde208fa5e559cacebe9d66daecfd60ea61f20bb6fffbb6f02a876d"
+        }
+      }
+    },
+    {
+      "id": "arcade-atlas-0000",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 2,
+          "seed": "atlas-0000",
+          "family": "arcade"
+        }
+      },
+      "effective": {
+        "family": "arcade",
+        "crest": "spear"
+      },
+      "expectedCompositionIndex": 1,
+      "structuralSignature": "{\"normalized\":{\"family\":\"arcade\",\"crest\":\"spear\"},\"structuralPaths\":[\"MLLLZ\",\"MCC\",\"MCC\",\"MCC\",\"MCC\",\"MCC\"],\"decorativePaths\":[\"MLMLLLZ\",\"MQ\",\"MQ\"],\"upperPaths\":[{\"collection\":\"structuralPaths\",\"index\":1,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":2,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":3,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":4,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":5,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"decorativePaths\",\"index\":0,\"yClasses\":\"RUUUUU\"}]}",
+      "files": {
+        "geometry": {
+          "filename": "arcade-atlas-0000.geometry.json",
+          "byteLength": 4611,
+          "sha256": "7959b1d595d132e81753fd278f658ec0ae8b3da3262f241d34382f69ba69afe8"
+        },
+        "svg": {
+          "filename": "arcade-atlas-0000.svg",
+          "byteLength": 1183,
+          "sha256": "d45688a6118cd3faa57d14b06c5cd755cee25d56fbc98eb2e5e8a5006e301588"
+        }
+      }
+    },
+    {
+      "id": "arcade-atlas-0004",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 2,
+          "seed": "atlas-0004",
+          "family": "arcade"
+        }
+      },
+      "effective": {
+        "family": "arcade",
+        "crest": "spear"
+      },
+      "expectedCompositionIndex": 0,
+      "structuralSignature": "{\"normalized\":{\"family\":\"arcade\",\"crest\":\"spear\"},\"structuralPaths\":[\"MLLLZ\",\"MQ\",\"MQ\",\"MQ\"],\"decorativePaths\":[\"MLMLLLZ\",\"MLLLL\",\"MLLLL\"],\"upperPaths\":[{\"collection\":\"structuralPaths\",\"index\":1,\"yClasses\":\"RUR\"},{\"collection\":\"structuralPaths\",\"index\":2,\"yClasses\":\"RUR\"},{\"collection\":\"structuralPaths\",\"index\":3,\"yClasses\":\"RUR\"},{\"collection\":\"decorativePaths\",\"index\":0,\"yClasses\":\"RUUUUU\"}]}",
+      "files": {
+        "geometry": {
+          "filename": "arcade-atlas-0004.geometry.json",
+          "byteLength": 3497,
+          "sha256": "f7fe13d76dbc6d487626d59b674ad4c698c1bbc1dd1ebf58d6a32b04767fe6fd"
+        },
+        "svg": {
+          "filename": "arcade-atlas-0004.svg",
+          "byteLength": 809,
+          "sha256": "5459387172d81494198d031ebf0c7499ba834e92a10f229f91f6b9de2ae6d7f5"
+        }
+      }
+    },
+    {
+      "id": "arcade-atlas-0271",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 2,
+          "seed": "atlas-0271",
+          "family": "arcade"
+        }
+      },
+      "effective": {
+        "family": "arcade",
+        "crest": "spear"
+      },
+      "expectedCompositionIndex": 2,
+      "structuralSignature": "{\"normalized\":{\"family\":\"arcade\",\"crest\":\"spear\"},\"structuralPaths\":[\"MLLLZ\",\"MQ\",\"MCC\",\"MQ\",\"MCC\",\"MQ\"],\"decorativePaths\":[\"MLMLLLZ\",\"MLLLL\",\"MLLLL\"],\"upperPaths\":[{\"collection\":\"structuralPaths\",\"index\":1,\"yClasses\":\"RUR\"},{\"collection\":\"structuralPaths\",\"index\":2,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":3,\"yClasses\":\"RUR\"},{\"collection\":\"structuralPaths\",\"index\":4,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":5,\"yClasses\":\"RUR\"},{\"collection\":\"decorativePaths\",\"index\":0,\"yClasses\":\"RUUUUU\"}]}",
+      "files": {
+        "geometry": {
+          "filename": "arcade-atlas-0271.geometry.json",
+          "byteLength": 4354,
+          "sha256": "1f4a8413fb1180aa1a1a0291fefa835ec6ce363c3d8c7b90b9dba116e8f6c759"
+        },
+        "svg": {
+          "filename": "arcade-atlas-0271.svg",
+          "byteLength": 1064,
+          "sha256": "3809dd54355901a1675204c20f21c850ba5dec64bf106ea55eeb73a74c442e3f"
+        }
+      }
+    },
+    {
+      "id": "vine-atlas-0000",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 2,
+          "seed": "atlas-0000",
+          "family": "vine"
+        }
+      },
+      "effective": {
+        "family": "vine",
+        "crest": "diamond"
+      },
+      "expectedCompositionIndex": 2,
+      "structuralSignature": "{\"normalized\":{\"family\":\"vine\",\"crest\":\"diamond\"},\"structuralPaths\":[\"MLLLZ\",\"MCCC\",\"MCCC\",\"ML\",\"MCCC\",\"MCCC\",\"MCCC\",\"MCCC\",\"MQ\",\"MQ\",\"MQ\",\"MQ\",\"MQ\",\"MQ\",\"MQ\",\"MQ\",\"MQ\",\"MQ\",\"MQ\",\"MQ\"],\"decorativePaths\":[\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MCC\",\"MCC\",\"MLMLLLZ\"],\"upperPaths\":[{\"collection\":\"structuralPaths\",\"index\":1,\"yClasses\":\"RUUUUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":2,\"yClasses\":\"RUUUUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":3,\"yClasses\":\"RU\"},{\"collection\":\"structuralPaths\",\"index\":4,\"yClasses\":\"RUUUUUUUUU\"},{\"collection\":\"structuralPaths\",\"index\":5,\"yClasses\":\"RUUUUUUUUU\"},{\"collection\":\"structuralPaths\",\"index\":6,\"yClasses\":\"RUUUUUUUUU\"},{\"collection\":\"structuralPaths\",\"index\":7,\"yClasses\":\"RUUUUUUUUU\"},{\"collection\":\"structuralPaths\",\"index\":8,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":9,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":10,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":11,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":12,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":13,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":14,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":15,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":16,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":17,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":18,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":19,\"yClasses\":\"RUU\"},{\"collection\":\"decorativePaths\",\"index\":0,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":1,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":2,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":3,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":4,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":5,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":6,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":7,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":8,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":9,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":10,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":11,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":14,\"yClasses\":\"RUUUUU\"}]}",
+      "files": {
+        "geometry": {
+          "filename": "vine-atlas-0000.geometry.json",
+          "byteLength": 13981,
+          "sha256": "f10073486319ade5e305134d5980647a3dc7bbaed7de3a0f9598083a4a9e223b"
+        },
+        "svg": {
+          "filename": "vine-atlas-0000.svg",
+          "byteLength": 4007,
+          "sha256": "ed00d7e63e726cb9ae9ed02a2a913bbc5bd32131edc0192f54e5eb9c57a6a39b"
+        }
+      }
+    },
+    {
+      "id": "vine-atlas-0004",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 2,
+          "seed": "atlas-0004",
+          "family": "vine"
+        }
+      },
+      "effective": {
+        "family": "vine",
+        "crest": "fleur"
+      },
+      "expectedCompositionIndex": 1,
+      "structuralSignature": "{\"normalized\":{\"family\":\"vine\",\"crest\":\"fleur\"},\"structuralPaths\":[\"MLLLZ\",\"MCCC\",\"MCCC\",\"MCCC\",\"MCCC\",\"MQ\",\"MQ\",\"MQ\",\"MQ\",\"MQ\",\"MQ\",\"MQ\",\"MQ\"],\"decorativePaths\":[\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQL\",\"MQL\",\"MLMCCMCCMLMCMCMCCZ\"],\"upperPaths\":[{\"collection\":\"structuralPaths\",\"index\":1,\"yClasses\":\"RUUUUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":2,\"yClasses\":\"RUUUUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":3,\"yClasses\":\"RUUUUUUUUU\"},{\"collection\":\"structuralPaths\",\"index\":4,\"yClasses\":\"RUUUUUUUUU\"},{\"collection\":\"structuralPaths\",\"index\":5,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":6,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":7,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":8,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":9,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":10,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":11,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":12,\"yClasses\":\"RUU\"},{\"collection\":\"decorativePaths\",\"index\":0,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":1,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":2,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":3,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":4,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":5,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":6,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":7,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":10,\"yClasses\":\"RUUUUUUUUUUUUUUUUUUUURUUURUUUUUUU\"}]}",
+      "files": {
+        "geometry": {
+          "filename": "vine-atlas-0004.geometry.json",
+          "byteLength": 11566,
+          "sha256": "caacebc438f666a00ccca13c7d79b5ed7200c71a321c33beec62421f44c36537"
+        },
+        "svg": {
+          "filename": "vine-atlas-0004.svg",
+          "byteLength": 3249,
+          "sha256": "cbd4915799e33e5cbf1626ccc3af463d0d592e749c1c3df445a754319033f42a"
+        }
+      }
+    },
+    {
+      "id": "vine-atlas-0271",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 2,
+          "seed": "atlas-0271",
+          "family": "vine"
+        }
+      },
+      "effective": {
+        "family": "vine",
+        "crest": "diamond"
+      },
+      "expectedCompositionIndex": 0,
+      "structuralSignature": "{\"normalized\":{\"family\":\"vine\",\"crest\":\"diamond\"},\"structuralPaths\":[\"MLLLZ\",\"MCC\",\"MCC\",\"MCCC\",\"MCCC\",\"MCCC\",\"MCCC\",\"MQ\",\"MQ\",\"MQ\",\"MQ\",\"MQ\",\"MQ\",\"MQ\",\"MQ\",\"MQ\",\"MQ\",\"MQ\",\"MQ\"],\"decorativePaths\":[\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQQZ\",\"MQL\",\"MQL\",\"MLMLLLZ\"],\"upperPaths\":[{\"collection\":\"structuralPaths\",\"index\":1,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":2,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":3,\"yClasses\":\"RUUUUUUUUU\"},{\"collection\":\"structuralPaths\",\"index\":4,\"yClasses\":\"RUUUUUUUUU\"},{\"collection\":\"structuralPaths\",\"index\":5,\"yClasses\":\"RUUUUUUUUU\"},{\"collection\":\"structuralPaths\",\"index\":6,\"yClasses\":\"RUUUUUUUUU\"},{\"collection\":\"structuralPaths\",\"index\":7,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":8,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":9,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":10,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":11,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":12,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":13,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":14,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":15,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":16,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":17,\"yClasses\":\"RUU\"},{\"collection\":\"structuralPaths\",\"index\":18,\"yClasses\":\"RUU\"},{\"collection\":\"decorativePaths\",\"index\":0,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":1,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":2,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":3,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":4,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":5,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":6,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":7,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":8,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":9,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":10,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":11,\"yClasses\":\"UUUUU\"},{\"collection\":\"decorativePaths\",\"index\":14,\"yClasses\":\"RUUUUU\"}]}",
+      "files": {
+        "geometry": {
+          "filename": "vine-atlas-0271.geometry.json",
+          "byteLength": 13230,
+          "sha256": "d93c7f0d0a23fe5e99dbb7ecbcc04f1b03d515d3c3e78685fbb6150f9d138587"
+        },
+        "svg": {
+          "filename": "vine-atlas-0271.svg",
+          "byteLength": 3801,
+          "sha256": "a1da10f8f3f58ac2fde13bc2c4efdf03a9bd80b3e76cf4b82629da24a98b9835"
+        }
+      }
+    },
+    {
+      "id": "fan-atlas-0000",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 2,
+          "seed": "atlas-0000",
+          "family": "fan"
+        }
+      },
+      "effective": {
+        "family": "fan",
+        "crest": "spear"
+      },
+      "expectedCompositionIndex": 0,
+      "structuralSignature": "{\"normalized\":{\"family\":\"fan\",\"crest\":\"spear\"},\"structuralPaths\":[\"MLLLZ\",\"MLL\",\"MLL\",\"MLL\",\"MLL\",\"MLL\",\"MLL\",\"MLL\",\"MLL\",\"MLL\",\"MLL\"],\"decorativePaths\":[\"MLLL\",\"MLLL\",\"MLMLLLZ\"],\"upperPaths\":[{\"collection\":\"structuralPaths\",\"index\":1,\"yClasses\":\"DRU\"},{\"collection\":\"structuralPaths\",\"index\":2,\"yClasses\":\"DRU\"},{\"collection\":\"structuralPaths\",\"index\":3,\"yClasses\":\"DRU\"},{\"collection\":\"structuralPaths\",\"index\":4,\"yClasses\":\"DRU\"},{\"collection\":\"structuralPaths\",\"index\":5,\"yClasses\":\"DRU\"},{\"collection\":\"structuralPaths\",\"index\":6,\"yClasses\":\"DRU\"},{\"collection\":\"structuralPaths\",\"index\":7,\"yClasses\":\"DRU\"},{\"collection\":\"structuralPaths\",\"index\":8,\"yClasses\":\"DRU\"},{\"collection\":\"structuralPaths\",\"index\":9,\"yClasses\":\"DRU\"},{\"collection\":\"structuralPaths\",\"index\":10,\"yClasses\":\"DRU\"},{\"collection\":\"decorativePaths\",\"index\":2,\"yClasses\":\"RUUUUU\"}]}",
+      "files": {
+        "geometry": {
+          "filename": "fan-atlas-0000.geometry.json",
+          "byteLength": 5144,
+          "sha256": "ca8c45d1e0f6707d3d8fcc2fbb2be8aeb25e7344ccfec6b93d53330a6eda48ff"
+        },
+        "svg": {
+          "filename": "fan-atlas-0000.svg",
+          "byteLength": 1218,
+          "sha256": "37b031c6fb21087b5e7d3101944bab21e917d7904d1e34e5c6242140e89dc29b"
+        }
+      }
+    },
+    {
+      "id": "fan-atlas-0004",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 2,
+          "seed": "atlas-0004",
+          "family": "fan"
+        }
+      },
+      "effective": {
+        "family": "fan",
+        "crest": "diamond"
+      },
+      "expectedCompositionIndex": 2,
+      "structuralSignature": "{\"normalized\":{\"family\":\"fan\",\"crest\":\"diamond\"},\"structuralPaths\":[\"MLLLZ\",\"MLQL\",\"MLQL\",\"MLQL\",\"MLQL\",\"MLQL\",\"MLQL\",\"MLQL\",\"MLQL\",\"MLQL\",\"MLQL\",\"MLQL\",\"MLQL\",\"MLQL\",\"MLQL\"],\"decorativePaths\":[\"MLLL\",\"MLLL\",\"MLMLLLZ\"],\"upperPaths\":[{\"collection\":\"structuralPaths\",\"index\":1,\"yClasses\":\"DRUUR\"},{\"collection\":\"structuralPaths\",\"index\":2,\"yClasses\":\"DRUUR\"},{\"collection\":\"structuralPaths\",\"index\":3,\"yClasses\":\"DRUUR\"},{\"collection\":\"structuralPaths\",\"index\":4,\"yClasses\":\"DRUUR\"},{\"collection\":\"structuralPaths\",\"index\":5,\"yClasses\":\"DRUUR\"},{\"collection\":\"structuralPaths\",\"index\":6,\"yClasses\":\"DRUUR\"},{\"collection\":\"structuralPaths\",\"index\":7,\"yClasses\":\"DRUUR\"},{\"collection\":\"structuralPaths\",\"index\":8,\"yClasses\":\"DRUUR\"},{\"collection\":\"structuralPaths\",\"index\":9,\"yClasses\":\"DRUUR\"},{\"collection\":\"structuralPaths\",\"index\":10,\"yClasses\":\"DRUUR\"},{\"collection\":\"structuralPaths\",\"index\":11,\"yClasses\":\"DRUUR\"},{\"collection\":\"structuralPaths\",\"index\":12,\"yClasses\":\"DRUUR\"},{\"collection\":\"structuralPaths\",\"index\":13,\"yClasses\":\"DRUUR\"},{\"collection\":\"structuralPaths\",\"index\":14,\"yClasses\":\"DRUUR\"},{\"collection\":\"decorativePaths\",\"index\":2,\"yClasses\":\"RUUUUU\"}]}",
+      "files": {
+        "geometry": {
+          "filename": "fan-atlas-0004.geometry.json",
+          "byteLength": 7801,
+          "sha256": "b5993601ac45e4eb149a6b9a065818190bb3588a2ed27050cd95f9827a21c9a0"
+        },
+        "svg": {
+          "filename": "fan-atlas-0004.svg",
+          "byteLength": 1833,
+          "sha256": "271b7ec454c0f6b6412ed33e9351a614c9376d770afbaf81a70a1053740a4543"
+        }
+      }
+    },
+    {
+      "id": "fan-atlas-0271",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 2,
+          "seed": "atlas-0271",
+          "family": "fan"
+        }
+      },
+      "effective": {
+        "family": "fan",
+        "crest": "none"
+      },
+      "expectedCompositionIndex": 1,
+      "structuralSignature": "{\"normalized\":{\"family\":\"fan\",\"crest\":\"none\"},\"structuralPaths\":[\"MLLLZ\",\"MLLLL\",\"MLLLL\",\"MLLLL\",\"MLLLL\",\"MLLLL\",\"MLLLL\",\"MLLLL\",\"MLLLL\",\"MLLLL\",\"MLLLL\",\"MLLLL\",\"MLLLL\",\"MLLLL\",\"MLLLL\"],\"decorativePaths\":[\"MLL\",\"MLL\"],\"upperPaths\":[{\"collection\":\"structuralPaths\",\"index\":1,\"yClasses\":\"DRDUU\"},{\"collection\":\"structuralPaths\",\"index\":2,\"yClasses\":\"DRDUU\"},{\"collection\":\"structuralPaths\",\"index\":3,\"yClasses\":\"DRDUU\"},{\"collection\":\"structuralPaths\",\"index\":4,\"yClasses\":\"DRDUU\"},{\"collection\":\"structuralPaths\",\"index\":5,\"yClasses\":\"DRDUU\"},{\"collection\":\"structuralPaths\",\"index\":6,\"yClasses\":\"DRDUU\"},{\"collection\":\"structuralPaths\",\"index\":7,\"yClasses\":\"DRDUU\"},{\"collection\":\"structuralPaths\",\"index\":8,\"yClasses\":\"DRDUU\"},{\"collection\":\"structuralPaths\",\"index\":9,\"yClasses\":\"DRDUU\"},{\"collection\":\"structuralPaths\",\"index\":10,\"yClasses\":\"DRDUU\"},{\"collection\":\"structuralPaths\",\"index\":11,\"yClasses\":\"DRDUU\"},{\"collection\":\"structuralPaths\",\"index\":12,\"yClasses\":\"DRDUU\"},{\"collection\":\"structuralPaths\",\"index\":13,\"yClasses\":\"DRDUU\"},{\"collection\":\"structuralPaths\",\"index\":14,\"yClasses\":\"DRDUU\"}]}",
+      "files": {
+        "geometry": {
+          "filename": "fan-atlas-0271.geometry.json",
+          "byteLength": 7740,
+          "sha256": "b47ae900098cfb890f52fd8a5250d24945845cee035e5566e3c8ef6acf2451c3"
+        },
+        "svg": {
+          "filename": "fan-atlas-0271.svg",
+          "byteLength": 1835,
+          "sha256": "e19ba898bd753fe4cbc6c07a1160249600eb11997ec3e8b39c3193b491ac56a9"
+        }
+      }
+    },
+    {
+      "id": "volute-atlas-0000",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 2,
+          "seed": "atlas-0000",
+          "family": "volute"
+        }
+      },
+      "effective": {
+        "family": "volute",
+        "crest": "spear"
+      },
+      "expectedCompositionIndex": 1,
+      "structuralSignature": "{\"normalized\":{\"family\":\"volute\",\"crest\":\"spear\"},\"structuralPaths\":[\"MLLLZ\",\"MCCCC\",\"MQ\",\"MQ\"],\"decorativePaths\":[\"MCC\",\"MCC\",\"MLMLLLZ\"],\"upperPaths\":[{\"collection\":\"structuralPaths\",\"index\":1,\"yClasses\":\"RUUUUUUUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":2,\"yClasses\":\"RUR\"},{\"collection\":\"structuralPaths\",\"index\":3,\"yClasses\":\"RUR\"},{\"collection\":\"decorativePaths\",\"index\":2,\"yClasses\":\"RUUUUU\"}]}",
+      "files": {
+        "geometry": {
+          "filename": "volute-atlas-0000.geometry.json",
+          "byteLength": 4129,
+          "sha256": "3a1052529ae13c96bf38c9a0938884cbd7c8fcce07c95e443204ff00c26f6b9a"
+        },
+        "svg": {
+          "filename": "volute-atlas-0000.svg",
+          "byteLength": 1055,
+          "sha256": "45b096c8a1b68c75e3458d284e1fe1e9031bdf34217412de8991d9df65cc97ee"
+        }
+      }
+    },
+    {
+      "id": "volute-atlas-0004",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 2,
+          "seed": "atlas-0004",
+          "family": "volute"
+        }
+      },
+      "effective": {
+        "family": "volute",
+        "crest": "none"
+      },
+      "expectedCompositionIndex": 2,
+      "structuralSignature": "{\"normalized\":{\"family\":\"volute\",\"crest\":\"none\"},\"structuralPaths\":[\"MLLLZ\",\"MCC\",\"MCC\",\"MCC\",\"MCC\",\"MCC\",\"MCC\",\"ML\"],\"decorativePaths\":[\"MCCC\",\"MCCC\"],\"upperPaths\":[{\"collection\":\"structuralPaths\",\"index\":1,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":2,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":3,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":4,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":5,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":6,\"yClasses\":\"RUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":7,\"yClasses\":\"RU\"}]}",
+      "files": {
+        "geometry": {
+          "filename": "volute-atlas-0004.geometry.json",
+          "byteLength": 5558,
+          "sha256": "7ed360870a3a609962dcb088febf4d7e187f5b82f392dfb31bece1349afbe76e"
+        },
+        "svg": {
+          "filename": "volute-atlas-0004.svg",
+          "byteLength": 1565,
+          "sha256": "dcbd7bf411d6e95ca1b3330638140f6aa1c57161dedc7330bcd69206027852b2"
+        }
+      }
+    },
+    {
+      "id": "volute-atlas-0271",
+      "input": {
+        "dimensions": {
+          "width": 600,
+          "height": 360
+        },
+        "options": {
+          "generationVersion": 2,
+          "seed": "atlas-0271",
+          "family": "volute"
+        }
+      },
+      "effective": {
+        "family": "volute",
+        "crest": "none"
+      },
+      "expectedCompositionIndex": 0,
+      "structuralSignature": "{\"normalized\":{\"family\":\"volute\",\"crest\":\"none\"},\"structuralPaths\":[\"MLLLZ\",\"MCCC\",\"MCCC\",\"MCCC\",\"MCCC\",\"MCCC\",\"MCCC\"],\"decorativePaths\":[\"MCCC\",\"MCCC\"],\"upperPaths\":[{\"collection\":\"structuralPaths\",\"index\":1,\"yClasses\":\"RUUUUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":2,\"yClasses\":\"RUUUUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":3,\"yClasses\":\"RUUUUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":4,\"yClasses\":\"RUUUUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":5,\"yClasses\":\"RUUUUUUUUR\"},{\"collection\":\"structuralPaths\",\"index\":6,\"yClasses\":\"RUUUUUUUUR\"}]}",
+      "files": {
+        "geometry": {
+          "filename": "volute-atlas-0271.geometry.json",
+          "byteLength": 6446,
+          "sha256": "cd5f9b5b1f078cfeff86daa004f9159c637c8470984ff9e96b13b659385c3f66"
+        },
+        "svg": {
+          "filename": "volute-atlas-0271.svg",
+          "byteLength": 1826,
+          "sha256": "c597498fbfe8c4bb8590c0e852c1eedd80693cdb49109fc86025b9a1bca8b064"
+        }
+      }
+    }
+  ]
+}
