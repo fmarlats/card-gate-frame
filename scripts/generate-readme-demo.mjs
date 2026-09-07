@@ -160,18 +160,13 @@ for (const { example, options, paint, card, svg } of cards) {
 
 const hero = documentSvg(
   1200,
-  820,
-  "Card Gate Frame — Ornament, by design.",
+  782,
+  "Card Gate Frame — Give your cards a touch of class.",
   "Six real generation 3 SVG frames: Courtyard on ivory, Fleuron in gold on forest green, Arcade in copper on limestone, Vine on sage, Fan in silver on midnight blue, and Volute in rose gold on burgundy. The typography and backgrounds illustrate possible uses of the library.",
-  `<rect width="1200" height="820" rx="8" fill="#f0ede6"/>
+  `<rect width="1200" height="782" rx="8" fill="#f0ede6"/>
 ${text(32, 43, "CARD GATE FRAME", 13, "#615f54", 'letter-spacing="2.5"')}
-${text(32, 100, "Ornament, by design.", 48, "#2f352d", 'font-family="Georgia, Times New Roman, serif"')}
-${text(1168, 69, "French ironwork. Rendered in SVG.", 16, "#615f54", 'text-anchor="end"')}
-${text(1168, 95, "Six families. A seed of your own.", 16, "#615f54", 'text-anchor="end"')}
-${cards.map(({ card }, index) => `<g transform="translate(${32 + (index % 3) * 384} ${138 + Math.floor(index / 3) * 314})">${card}</g>`).join("\n")}
-<path d="M32 779 H1168" stroke="#d4d0c5"/>
-${text(32, 805, "REAL GENERATED FRAMES · GENERATION 3", 11, "#615f54", 'letter-spacing="1.4"')}
-${text(1168, 805, "Seeded geometry  /  DOM-free core  /  Zero runtime dependencies", 12, "#615f54", 'text-anchor="end"')}`,
+${text(32, 100, "Give your cards a touch of class.", 48, "#2f352d", 'font-family="Georgia, Times New Roman, serif"')}
+${cards.map(({ card }, index) => `<g transform="translate(${32 + (index % 3) * 384} ${138 + Math.floor(index / 3) * 314})">${card}</g>`).join("\n")}`,
 );
 const heroPath = new URL("readme-demo.svg", output);
 await writeFile(heroPath, hero);
@@ -180,7 +175,7 @@ if (!process.argv.includes("--svg-only")) {
   const browser = await chromium.launch();
   try {
     const page = await browser.newPage({
-      viewport: { width: 1200, height: 820 },
+      viewport: { width: 1200, height: 782 },
       deviceScaleFactor: 2,
     });
     await page.setContent(`<style>body{margin:0}svg{display:block}</style>${hero}`);
@@ -212,7 +207,7 @@ if (!process.argv.includes("--svg-only")) {
     const qaRoot = new URL("../test-results/readme-demo/", import.meta.url);
     await mkdir(qaRoot, { recursive: true });
     for (const width of [880, 375]) {
-      await page.setViewportSize({ width, height: Math.ceil((820 * width) / 1200) });
+      await page.setViewportSize({ width, height: Math.ceil((782 * width) / 1200) });
       await page.screenshot({ path: fileURLToPath(new URL(`${width}.png`, qaRoot)) });
     }
   } finally {
