@@ -37,6 +37,7 @@
   ],
   "scripts": {
     "dev": "pnpm build && vite examples/vanilla",
+    "demo:readme": "pnpm build && node scripts/generate-readme-demo.mjs",
     "build": "tsdown",
     "example:build": "pnpm build && vite build examples/vanilla",
     "check:format": "biome format .",

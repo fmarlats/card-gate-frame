@@ -1,5 +1,7 @@
 # Card Gate Frame
 
+[![Six ornamental SVG frame examples in ivory, forest green, copper, sage, midnight blue, and burgundy.](docs/assets/readme-demo.svg)](docs/assets/readme-demo.svg)
+
 Deterministic ornamental SVG frames for prepared HTML containers, with a DOM-free geometry generator, TypeScript declarations, and zero runtime dependencies.
 
 Package version 1.0.0 includes three generation algorithms. Use explicit `generationVersion: 3` for French ironwork across the `courtyard`, `fleuron`, `arcade`, `vine`, `fan`, and `volute` families. Generation 2 offers alternate compositions; omitting `generationVersion` selects the original courtyard algorithm (generation 1). Equal version, seed, dimensions, options, and paint reproduce equal output.
@@ -144,5 +146,7 @@ The package is ESM-only and targets ES2022. Release tests use Playwright 1.63.0 
 ## Example
 
 The repository includes an interactive six-family example. Run `pnpm install --frozen-lockfile` and `pnpm dev` from a source checkout.
+
+The showcase above uses real generation 3 output. Download the [SVG](docs/assets/readme-demo.svg), [PNG](docs/assets/readme-demo.png), or [individual example cards and raw frames](docs/assets/examples). The card copy, typography, and backgrounds illustrate possible uses; the library generates the ornamental frames. Run `pnpm demo:readme` to regenerate all assets, or `pnpm demo:readme --svg-only` for SVGs without launching a browser.
 
 MIT licensed; see LICENSE.

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="368" height="298" viewBox="0 0 368 298" role="img" aria-labelledby="title description" font-family="Arial, Helvetica, sans-serif">
+<title id="title">Les Arcades — arcade</title>
+<desc id="description">An illustrative editorial card with an unmodified generation 3 arcade frame from card-gate-frame.</desc>
+<metadata>{&quot;dimensions&quot;:{&quot;width&quot;:344,&quot;height&quot;:236},&quot;options&quot;:{&quot;generationVersion&quot;:3,&quot;seed&quot;:&quot;readme-arcade&quot;,&quot;family&quot;:&quot;arcade&quot;,&quot;density&quot;:0.52,&quot;curvature&quot;:0.74,&quot;symmetry&quot;:1,&quot;peakHeight&quot;:0.48,&quot;sideComplexity&quot;:0.56},&quot;paint&quot;:{&quot;stroke&quot;:&quot;#9a623f&quot;,&quot;surface&quot;:&quot;#e5d9c7&quot;}}</metadata>
+<g data-example="arcade">
+<rect width="368" height="298" rx="4" fill="#eee8df"/>
+<g transform="translate(12 16)" data-safe="{&quot;left&quot;:23.16,&quot;top&quot;:84.96,&quot;right&quot;:320.84,&quot;bottom&quot;:212.84}">
+<svg xmlns="http://www.w3.org/2000/svg" width="344" height="236" viewBox="0 0 344 236" data-gate-frame-generation-version="3"><path d="M9 70.8 L335 70.8 L335 227 L9 227 Z M23.16 84.96 L23.16 212.84 L320.84 212.84 L320.84 84.96 Z" fill="#e5d9c7" fill-rule="evenodd" stroke="none"/><g stroke="#9a623f" fill="none" stroke-linecap="round" stroke-linejoin="round"><g stroke-width="2"><path d="M9 227 L9 70.8 L335 70.8 L335 227 Z"/><path d="M172 37.3167 L172 70.8"/></g><g stroke-width="1.8"><path d="M16 70.8 L16 52.4336 C16 40.6791 24.14 34.0671 34.5 34.0671 C44.86 34.0671 53 40.6791 53 52.4336 L53 70.8"/><path d="M328 70.8 L328 52.4336 C328 40.6791 319.86 34.0671 309.5 34.0671 C299.14 34.0671 291 40.6791 291 52.4336 L291 70.8"/><path d="M62 70.8 L62 51.472 C62 39.1021 70.14 32.1441 80.5 32.1441 C90.86 32.1441 99 39.1021 99 51.472 L99 70.8"/><path d="M282 70.8 L282 51.472 C282 39.1021 273.86 32.1441 263.5 32.1441 C253.14 32.1441 245 39.1021 245 51.472 L245 70.8"/><path d="M108 70.8 L108 50.5105 C108 37.5252 116.14 30.221 126.5 30.221 C136.86 30.221 145 37.5252 145 50.5105 L145 70.8"/><path d="M236 70.8 L236 50.5105 C236 37.5252 227.86 30.221 217.5 30.221 C207.14 30.221 199 37.5252 199 50.5105 L199 70.8"/></g><g stroke-width="1.2"><path d="M14.0976 70.8 L14.0976 227"/><path d="M329.9024 70.8 L329.9024 227"/><path d="M9 220 L335 220"/><path d="M168 41.3167 L176 41.3167"/></g><g stroke-width="0.8" fill="#9a623f"><path d="M9 113.036 L16.0976 113.036 L16.0976 116.036 L9 116.036 Z"/><path d="M335 113.036 L327.9024 113.036 L327.9024 116.036 L335 116.036 Z"/><path d="M9 181.764 L16.0976 181.764 L16.0976 184.764 L9 184.764 Z"/><path d="M335 181.764 L327.9024 181.764 L327.9024 184.764 L335 184.764 Z"/><path d="M172 21.4411 L177.0802 30.649 L172 37.3167 L166.9198 30.649 Z"/></g></g></svg>
+<g data-content="arcade" text-anchor="middle">
+<text x="172" y="115" font-size="10" fill="#7b6653" letter-spacing="1.8">ÉDITIONS DU PASSAGE</text>
+<text x="172" y="155" font-size="31" fill="#513b2c" font-family="Georgia, Times New Roman, serif">Les Arcades</text>
+<path d="M154 175 H190" stroke="#9a623f" stroke-width="1"/>
+<text x="172" y="198" font-size="12" fill="#7b6653" >Stories with a sense of place.</text>
+</g>
+</g>
+<text x="22" y="279" font-size="12" fill="#7b6653" letter-spacing="0.5">03 / arcade</text>
+<text x="346" y="279" font-size="11" fill="#7b6653" text-anchor="end">Editorial</text>
+</g>
+</svg>
