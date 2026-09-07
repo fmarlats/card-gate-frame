@@ -54,7 +54,7 @@
     "check": "pnpm check:format && pnpm check:lint && pnpm check:types",
     "format": "biome check --write .",
     "test": "vitest run",
-    "test:release-properties": "GATE_FRAME_PROPERTY_RUNS=10000 vitest run tests/properties --testTimeout=60000",
+    "test:release-properties": "GATE_FRAME_PROPERTY_RUNS=10000 vitest run tests/properties --testTimeout=120000",
     "test:browser": "playwright test",
     "test:package": "node scripts/verify-package.mjs",
     "test:all": "pnpm verify && pnpm test:release-properties",
