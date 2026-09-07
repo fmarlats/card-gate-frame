@@ -168,6 +168,11 @@ const resetButton = requireElement<HTMLButtonElement>("#reset-button");
 const gallery = requireElement<HTMLElement>("#variation-gallery");
 const shuffleGalleryButton = requireElement<HTMLButtonElement>("#shuffle-gallery");
 const galleryStatus = requireElement<HTMLElement>("#gallery-status");
+const copyCodeButton = requireElement<HTMLButtonElement>("#copy-code-button");
+const downloadSvgButton = requireElement<HTMLButtonElement>("#download-svg-button");
+const exportStatus = requireElement<HTMLElement>("#export-status");
+const codeDetails = requireElement<HTMLDetailsElement>("#code-details");
+const generationCode = requireElement<HTMLTextAreaElement>("#generation-code");
 
 const isPaletteName = (value: string): value is PaletteName => Object.hasOwn(PALETTES, value);
 const isFamilyChoice = (value: string): value is FamilyChoice =>
@@ -229,12 +234,33 @@ const readPlaygroundOptions = (): GateOptionsV3 => {
 
 syncCrestOptions();
 const controller = gateFrame(card, readPlaygroundOptions());
+const updateExportCode = (
+  snapshot: Awaited<ReturnType<GateFrameController["whenReady"]>>,
+): void => {
+  const { inset: _inset, strokeWidth: _strokeWidth, ...options } = snapshot.geometry.options;
+  generationCode.value = [
+    'import { generateGate, renderGateSVG } from "card-gate-frame/core";',
+    "",
+    `const dimensions = ${JSON.stringify(snapshot.geometry.dimensions, null, 2)};`,
+    `const options = ${JSON.stringify({ ...options, seed: snapshot.seed }, null, 2)};`,
+    `const paint = ${JSON.stringify(snapshot.paint, null, 2)};`,
+    "",
+    "const svg = renderGateSVG(generateGate(dimensions, options), paint);",
+  ].join("\n");
+};
+const setExportsAvailable = (available: boolean): void => {
+  copyCodeButton.disabled = !available;
+  downloadSvgButton.disabled = !available;
+  if (!available) generationCode.value = "";
+};
 let playgroundAction = 0;
 let currentCrestChoice: CrestChoice = DEFAULTS.crest;
 const markPlaygroundPending = (): number => {
   const action = ++playgroundAction;
   card.dataset.gateFrameStatus = "updating";
   interactionStatus.textContent = "Frame status: updating…";
+  setExportsAvailable(false);
+  exportStatus.textContent = "Updating your frame…";
   return action;
 };
 const markPlaygroundReady = (
@@ -247,11 +273,16 @@ const markPlaygroundReady = (
   card.dataset.family = snapshot.geometry.options.family;
   card.dataset.crest = snapshot.geometry.options.crest;
   interactionStatus.textContent = `Frame ready · ${snapshot.geometry.options.family} · seed ${snapshot.seed}`;
+  updateExportCode(snapshot);
+  setExportsAvailable(true);
+  exportStatus.textContent = "Your frame is ready to copy or download.";
 };
 const markPlaygroundError = (error: unknown): void => {
   card.dataset.gateFrameStatus = "error";
   interactionStatus.textContent =
     error instanceof Error ? error.message : "The frame could not be updated.";
+  setExportsAvailable(false);
+  exportStatus.textContent = "Fix the frame controls to copy code or download SVG.";
 };
 const applyPlaygroundControls = async (waitForResize = false): Promise<void> => {
   const action = markPlaygroundPending();
@@ -336,6 +367,45 @@ resetButton.addEventListener("click", () => {
     await applyPlaygroundControls(true);
   });
 });
+
+copyCodeButton.addEventListener("click", () => {
+  void controller.whenReady().then(async (snapshot) => {
+    updateExportCode(snapshot);
+    try {
+      await navigator.clipboard.writeText(generationCode.value);
+      exportStatus.textContent = "Generation code copied.";
+    } catch {
+      codeDetails.open = true;
+      generationCode.focus();
+      generationCode.select();
+      exportStatus.textContent = "Clipboard unavailable. Copy the selected code below.";
+    }
+  }, markPlaygroundError);
+});
+downloadSvgButton.addEventListener("click", () => {
+  void controller.whenReady().then((snapshot) => {
+    updateExportCode(snapshot);
+    const url = URL.createObjectURL(new Blob([controller.toSVG()], { type: "image/svg+xml" }));
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `card-gate-frame-${snapshot.geometry.options.family}.svg`;
+    document.body.append(link);
+    link.click();
+    link.remove();
+    window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+    exportStatus.textContent = "SVG download started.";
+  }, markPlaygroundError);
+});
+const exportResizeObserver = new ResizeObserver(() => {
+  void controller.whenReady().then(
+    (snapshot) => {
+      updateExportCode(snapshot);
+      setExportsAvailable(true);
+    },
+    () => setExportsAvailable(false),
+  );
+});
+exportResizeObserver.observe(card);
 
 const galleryMounts: GalleryMount[] = [];
 const setGalleryMountReady = async (mount: GalleryMount): Promise<void> => {
@@ -463,6 +533,7 @@ void controller.whenReady().then((snapshot) => {
 window.addEventListener(
   "pagehide",
   () => {
+    exportResizeObserver.disconnect();
     controller.destroy();
     for (const mount of galleryMounts) mount.controller.destroy();
   },

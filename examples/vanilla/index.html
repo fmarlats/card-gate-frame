@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="A private Gate Frame workshop for six deterministic generation-v3 families."
+      content="Generate ornamental SVG frames and decorative borders for HTML cards. Explore six French ironwork families, customize seeds and colors, copy code, and download SVG."
     />
-    <title>Gate Frame — Six-family Workshop</title>
+    <title>Card Gate Frame — Ornamental SVG Frame Generator</title>
+    <link rel="canonical" href="https://fmarlats.github.io/card-gate-frame/" />
     <link rel="stylesheet" href="./style.css" />
     <script type="module" src="./main.ts"></script>
   </head>
@@ -15,22 +16,27 @@
     <main class="page-shell">
       <header class="introduction">
         <div>
-          <p class="eyebrow">Gate Frame / private family workshop</p>
-          <h1>Ironwork, tuned in the open.</h1>
+          <p class="eyebrow">Card Gate Frame / SVG playground</p>
+          <h1>French ironwork for your cards.</h1>
         </div>
-        <p>
-          Shape one live frame, then compare all six families through the real public
-          controller. This development workshop is local and unpublished.
-        </p>
+        <div class="introduction-details">
+          <p>Generate decorative SVG borders for invitations, menus, and website panels.
+            Choose a family and palette, then take your frame with you.</p>
+          <nav class="project-links" aria-label="Project">
+            <a href="https://github.com/fmarlats/card-gate-frame">GitHub</a>
+            <a href="https://www.npmjs.com/package/card-gate-frame">npm</a>
+            <a href="https://github.com/fmarlats/card-gate-frame#browser-quick-start">Quick start</a>
+          </nav>
+        </div>
       </header>
 
       <section class="playground-section" aria-labelledby="playground-heading">
         <header class="section-heading">
           <div>
             <p class="section-index">01 / Live study</p>
-            <h2 id="playground-heading">Generation-v3 playground</h2>
+            <h2 id="playground-heading">Shape your frame</h2>
           </div>
-          <p>Every control updates the mounted controller in place.</p>
+          <p>Six families. Repeatable seeds. No runtime dependencies.</p>
         </header>
 
         <div class="playground-layout">
@@ -44,7 +50,7 @@
               <p class="eyebrow">Lyon · late summer</p>
               <h3 id="courtyard-title">The quiet courtyard</h3>
               <p>
-                The owned SVG stays outside this padded content and ignores pointer input.
+                An invitation to slow down, step through the iron gates, and stay a little longer.
               </p>
               <div class="actions">
                 <button id="visit-button" type="button">Visit courtyard</button>
@@ -213,10 +219,25 @@
         </div>
       </section>
 
-      <p id="courtyard-note" class="note" tabindex="-1">
-        The playground and every family study use the real <code>card-gate-frame</code> controller. The
-        original content nodes stay in place while one owned overlay is regenerated.
-      </p>
+      <section class="export-panel" aria-labelledby="export-heading">
+        <div>
+          <h2 id="export-heading">Use this frame</h2>
+          <p id="courtyard-note" tabindex="-1">Download the SVG, or copy the JavaScript that
+            recreates it at its current dimensions. For a frame around your own HTML,
+            follow the <a href="https://github.com/fmarlats/card-gate-frame#browser-quick-start">quick start</a>.</p>
+          <p class="install-command"><code>pnpm add card-gate-frame</code></p>
+        </div>
+        <div class="export-actions">
+          <button id="copy-code-button" type="button" disabled>Copy code</button>
+          <button id="download-svg-button" type="button" disabled>Download SVG</button>
+        </div>
+        <p id="export-status" role="status">Preparing your frame…</p>
+        <details id="code-details">
+          <summary>Generation code</summary>
+          <label class="visually-hidden" for="generation-code">JavaScript for the current SVG frame</label>
+          <textarea id="generation-code" readonly spellcheck="false" wrap="off"></textarea>
+        </details>
+      </section>
 
       <section class="gallery-section" aria-labelledby="gallery-heading">
         <header class="section-heading gallery-heading">

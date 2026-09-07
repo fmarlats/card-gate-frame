@@ -4,6 +4,7 @@ import type { GateFrameController } from "../../src/index.js";
 declare global {
   interface Window {
     v3Controller: GateFrameController;
+    copiedGenerationCode?: string;
   }
 }
 
@@ -25,6 +26,88 @@ test("uses production v3 throughout the vanilla workshop", async ({ page }) => {
         .map((path) => getComputedStyle(path).fill),
     );
   expect(contourFills).toEqual(["none", "none"]);
+});
+
+test("exports replayable code and the matching SVG from the public playground", async ({
+  page,
+}) => {
+  await page.addInitScript(() => {
+    Object.defineProperty(navigator, "clipboard", {
+      configurable: true,
+      value: {
+        writeText: async (code: string) => {
+          window.copiedGenerationCode = code;
+        },
+      },
+    });
+  });
+  await page.goto("/examples/vanilla/");
+  const card = page.locator("#courtyard-card");
+  await expect(card).toHaveAttribute("data-gate-frame-status", "ready");
+  await page.locator("#family-select").selectOption("fan");
+  await page.locator("#palette-select").selectOption("oxblood");
+  await page.locator("#seed-input").fill('a "quoted" seed </script>');
+  await page.locator("#seed-input").press("Tab");
+  await expect(card).toHaveAttribute("data-seed", 'a "quoted" seed </script>');
+  await page.setViewportSize({ width: 512, height: 900 });
+  await page.locator("#copy-code-button").click();
+  await expect(page.locator("#export-status")).toHaveText("Generation code copied.");
+  const replayed = await page.evaluate(async () => {
+    const code = window.copiedGenerationCode;
+    if (code === undefined) throw new Error("No copied code");
+    const moduleUrl = URL.createObjectURL(
+      new Blob(
+        [
+          code.replace(
+            '"card-gate-frame/core"',
+            JSON.stringify(`${location.origin}/dist/core/index.js`),
+          ),
+          "\nexport { svg };",
+        ],
+        { type: "text/javascript" },
+      ),
+    );
+    try {
+      const generated = (await import(moduleUrl)) as { svg: string };
+      return generated.svg;
+    } finally {
+      URL.revokeObjectURL(moduleUrl);
+    }
+  });
+  const downloadPromise = page.waitForEvent("download");
+  await page.locator("#download-svg-button").click();
+  const download = await downloadPromise;
+  expect(download.suggestedFilename()).toBe("card-gate-frame-fan.svg");
+  const stream = await download.createReadStream();
+  if (stream === null) throw new Error("Missing SVG download");
+  const chunks: Buffer[] = [];
+  for await (const chunk of stream) chunks.push(Buffer.from(chunk));
+  expect(Buffer.concat(chunks).toString("utf8")).toBe(replayed);
+});
+
+test("offers selectable code when clipboard access is denied", async ({ page }) => {
+  await page.addInitScript(() => {
+    Object.defineProperty(navigator, "clipboard", {
+      configurable: true,
+      value: {
+        writeText: async () => {
+          throw new DOMException("Denied", "NotAllowedError");
+        },
+      },
+    });
+  });
+  await page.goto("/examples/vanilla/");
+  await page.locator("#copy-code-button").click();
+  await expect(page.locator("#export-status")).toHaveText(
+    "Clipboard unavailable. Copy the selected code below.",
+  );
+  await expect(page.locator("#generation-code")).toBeVisible();
+  const selection = await page.locator("#generation-code").evaluate((element) => {
+    const textarea = element as HTMLTextAreaElement;
+    return textarea.value.slice(textarea.selectionStart, textarea.selectionEnd);
+  });
+  expect(selection).toContain('from "card-gate-frame/core"');
+  expect(selection).toContain('"generationVersion": 3');
 });
 
 test("resizes v3 and replays its randomized export through the core", async ({ page }) => {

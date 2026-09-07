@@ -28,17 +28,17 @@ for (const width of [320, 1280, 1920]) {
         style.textContent = css;
         document.head.append(style);
 
-        const controller = window.gateFramePackage.gateFrame(
-          document.querySelector<HTMLElement>("#card") as HTMLElement,
-          {
-            seed: "lyon-42",
-            family: "courtyard",
-            density: 0.58,
-            curvature: 0.72,
-            stroke: "#20221e",
-            surface: "rgba(143, 119, 79, 0.12)",
-          },
-        );
+        const { gateFrame } =
+          window.gateFramePackage as unknown as typeof import("../../src/index.js");
+        const controller = gateFrame(document.querySelector<HTMLElement>("#card") as HTMLElement, {
+          generationVersion: 3,
+          seed: "lyon-42",
+          family: "courtyard",
+          density: 0.58,
+          curvature: 0.72,
+          stroke: "#20221e",
+          surface: "rgba(143, 119, 79, 0.12)",
+        });
 
         try {
           const snapshot = await controller.whenReady();
@@ -60,6 +60,6 @@ for (const width of [320, 1280, 1920]) {
       { css: fencedBlock("css"), html: fencedBlock("html") },
     );
 
-    expect(result).toEqual({ state: "ready", generationVersion: 1, overlayCount: 1 });
+    expect(result).toEqual({ state: "ready", generationVersion: 3, overlayCount: 1 });
   });
 }

@@ -2,6 +2,7 @@ node_modules/
 .pnpm-store/
 .hermes/
 dist/
+build/
 coverage/
 playwright-report/
 test-results/
@@ -14,6 +15,7 @@ pnpm-debug.log*
 *.md
 *.mdx
 !/README.md
+!/AGENTS.md
 .env
 .env.*
 .npmrc

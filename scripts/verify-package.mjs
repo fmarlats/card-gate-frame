@@ -336,13 +336,11 @@ const validateArchiveManifest = (fileEntries) => {
 
 const validatePackedManifest = (manifest, sourceManifest) => {
   assert.equal(manifest.name, "card-gate-frame");
-  assert.equal(manifest.version, "1.0.0");
+  assert.equal(manifest.version, "1.0.1");
   assert.equal(manifest.private, undefined);
-  assert.equal(
-    manifest.description,
-    "Deterministic ornamental SVG frames for prepared HTML containers and DOM-free generation.",
-  );
-  assert.deepEqual(manifest.keywords, ["svg", "frame", "ornament", "deterministic", "typescript"]);
+  assert.equal(manifest.description, sourceManifest.description);
+  assert.deepEqual(manifest.keywords, sourceManifest.keywords);
+  assert.equal(manifest.homepage, sourceManifest.homepage);
   assert.equal(manifest.author, undefined);
   assert.equal(manifest.type, "module");
   assert.equal(manifest.license, "MIT");
@@ -1611,7 +1609,7 @@ const main = async () => {
     assertNoRuntimeDependencies(sourceManifest);
     assertNoUnderminingLifecycle(sourceManifest, true);
     assert.equal(sourceManifest.private, undefined);
-    assert.equal(sourceManifest.version, "1.0.0");
+    assert.equal(sourceManifest.version, "1.0.1");
     assert.equal(sourceManifest.devDependencies.vite, expectedToolVersions.vite);
     assert.equal(sourceManifest.devDependencies.publint, expectedToolVersions.publint);
     assert.equal(
@@ -1659,7 +1657,7 @@ const main = async () => {
     await run("pnpm", ["pack", "--pack-destination", packRoot], { cwd: buildRoot });
 
     const packedNames = (await readdir(packRoot)).filter((name) => name.endsWith(".tgz"));
-    assert.deepEqual(packedNames, ["card-gate-frame-1.0.0.tgz"]);
+    assert.deepEqual(packedNames, ["card-gate-frame-1.0.1.tgz"]);
     const tarballPath = join(packRoot, packedNames[0]);
     const tarballBytes = await readFile(tarballPath);
     const tarballStats = await stat(tarballPath);

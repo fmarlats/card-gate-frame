@@ -87,12 +87,112 @@ input[type="range"] {
   letter-spacing: -0.045em;
 }
 
-.introduction > p {
+.introduction-details > p {
   max-width: 29rem;
   color: var(--muted);
   font-family: ui-sans-serif, system-ui, sans-serif;
-  font-size: 0.92rem;
+  font-size: 1rem;
   line-height: 1.65;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.25rem;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 650;
+}
+
+.project-links a,
+.export-panel a {
+  color: var(--ink);
+  text-underline-offset: 0.25rem;
+}
+
+.export-panel {
+  display: grid;
+  min-width: 0;
+  gap: 1rem;
+  padding: clamp(1rem, 3vw, 2rem);
+  border-block: 1px solid var(--rule);
+  background: rgba(242, 237, 226, 0.48);
+}
+
+.export-panel h2 {
+  margin: 0 0 0.75rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.export-panel p {
+  max-width: 60ch;
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.export-panel .install-command {
+  margin-top: 0.75rem;
+}
+
+.export-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.export-actions button {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--ink);
+  border-radius: 0.12rem;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 650;
+}
+
+.export-actions button:disabled {
+  cursor: wait;
+  opacity: 0.55;
+}
+
+#export-status,
+#code-details summary {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.875rem;
+}
+
+#code-details {
+  min-width: 0;
+}
+
+#code-details summary {
+  width: fit-content;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+}
+
+#generation-code {
+  display: block;
+  width: 100%;
+  min-height: 24rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--rule);
+  border-radius: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font:
+    0.875rem / 1.6 ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    monospace;
+  resize: vertical;
 }
 
 .eyebrow,
@@ -227,7 +327,7 @@ input[type="range"] {
   background: #35382f;
 }
 
-:is(button, a, input, select):focus-visible {
+:is(button, a, input, select, textarea, summary):focus-visible {
   outline: 3px solid var(--accent);
   outline-offset: 3px;
 }
@@ -511,7 +611,7 @@ code {
     grid-template-columns: 1fr;
   }
 
-  .introduction > p {
+  .introduction-details > p {
     max-width: 38rem;
   }
 

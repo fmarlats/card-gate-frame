@@ -1,10 +1,14 @@
 # Card Gate Frame
 
+[Live demo](https://fmarlats.github.io/card-gate-frame/) · [npm](https://www.npmjs.com/package/card-gate-frame) · [Quick start](#browser-quick-start)
+
 [![Six ornamental SVG frame examples in ivory, forest green, copper, sage, midnight blue, and burgundy.](docs/assets/readme-demo.svg)](docs/assets/readme-demo.svg)
 
-Deterministic ornamental SVG frames for prepared HTML containers, with a DOM-free geometry generator, TypeScript declarations, and zero runtime dependencies.
+Generate ornamental SVG frames and decorative borders for HTML cards. French ironwork styles, seeded generation, TypeScript, and zero runtime dependencies.
 
-Package version 1.0.0 includes three generation algorithms. Use explicit `generationVersion: 3` for French ironwork across the `courtyard`, `fleuron`, `arcade`, `vine`, `fan`, and `volute` families. Generation 2 offers alternate compositions; omitting `generationVersion` selects the original courtyard algorithm (generation 1). Equal version, seed, dimensions, options, and paint reproduce equal output.
+Use the frames for invitation cards, editorial callouts, restaurant menus, or decorative website panels. Mount a frame on a prepared HTML container, or generate SVG on a server or worker with the DOM-free core.
+
+[Try the playground](https://fmarlats.github.io/card-gate-frame/) to explore six families, change seeds and palettes, copy generation code, and download SVG without installing anything.
 
 ## Installation
 
@@ -31,7 +35,7 @@ Gate Frame uses the target's existing padding as the content-safe region; it doe
   position: relative;
   max-width: 960px;
   min-height: 25rem;
-  padding: 8.5rem 2.375rem 2.375rem;
+  padding: 11rem 2.375rem 2.375rem;
 }
 ```
 
@@ -39,6 +43,7 @@ Gate Frame uses the target's existing padding as the content-safe region; it doe
 import { gateFrame } from "card-gate-frame";
 
 const controller = gateFrame("#card", {
+  generationVersion: 3,
   seed: "lyon-42",
   family: "courtyard",
   density: 0.58,
@@ -50,14 +55,10 @@ const controller = gateFrame("#card", {
 await controller.whenReady();
 ```
 
-Select generation 3 for French ironwork and its additional controls:
+This quick start uses the same generation 3 algorithm as the showcase. Customize its family and shape in place:
 
 ```ts
-controller.destroy();
-
-const workshop = gateFrame("#card", {
-  generationVersion: 3,
-  seed: "lyon-42",
+controller.update({
   family: "fan",
   crest: "diamond",
   density: 0.58,
@@ -67,7 +68,7 @@ const workshop = gateFrame("#card", {
   sideComplexity: 0.64,
 });
 
-await workshop.whenReady();
+await controller.whenReady();
 ```
 
 The exact minimum padding is reported by generated `contentInsets` and varies with the measured size and options. The DOM adapter compares those physical insets with computed padding and reports `GateFrameInsufficientSpaceError` instead of obscuring content. When padding changes without a box resize, call `controller.update({})` to re-check it.
@@ -84,7 +85,7 @@ import { generateGate, renderGateSVG } from "card-gate-frame/core";
 
 const geometry = generateGate(
   { width: 640, height: 360 },
-  { seed: "lyon-42", family: "courtyard", generationVersion: 1 },
+  { seed: "lyon-42", family: "courtyard", generationVersion: 3 },
 );
 
 const svg = renderGateSVG(geometry, {
@@ -94,6 +95,10 @@ const svg = renderGateSVG(geometry, {
 ```
 
 `card-gate-frame/core` has no DOM globals or DOM declaration requirement.
+
+## Generation versions
+
+The package includes three generation algorithms. Use explicit `generationVersion: 3` for French ironwork across the `courtyard`, `fleuron`, `arcade`, `vine`, `fan`, and `volute` families. Generation 2 offers alternate compositions; omitting `generationVersion` selects the original courtyard algorithm (generation 1). Equal version, seed, dimensions, options, and paint reproduce equal output.
 
 ## Targets and cleanup
 
@@ -145,7 +150,7 @@ The package is ESM-only and targets ES2022. Release tests use Playwright 1.63.0 
 
 ## Example
 
-The repository includes an interactive six-family example. Run `pnpm install --frozen-lockfile` and `pnpm dev` from a source checkout.
+Open the [interactive six-family playground](https://fmarlats.github.io/card-gate-frame/), or run `pnpm install --frozen-lockfile` and `pnpm dev` from a source checkout. Build the public demo with `pnpm example:build`. GitHub Actions builds and publishes the demo to GitHub Pages on pushes to `main`.
 
 The showcase above uses real generation 3 output. Download the [SVG](docs/assets/readme-demo.svg), [PNG](docs/assets/readme-demo.png), or [individual example cards and raw frames](docs/assets/examples). The card copy, typography, and backgrounds illustrate possible uses; the library generates the ornamental frames. Run `pnpm demo:readme` to regenerate all assets, or `pnpm demo:readme --svg-only` for SVGs without launching a browser.
 

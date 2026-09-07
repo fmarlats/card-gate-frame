@@ -1,13 +1,13 @@
 import { readFile } from "node:fs/promises";
 import { expect, test } from "vitest";
 
-test("exposes an installable public 1.0.0 package with an explicit distribution allowlist", async () => {
+test("exposes an installable public package with an explicit distribution allowlist", async () => {
   const manifest = JSON.parse(
     await readFile(new URL("../../package.json", import.meta.url), "utf8"),
   );
   expect(manifest).toMatchObject({
     name: "card-gate-frame",
-    version: "1.0.0",
+    version: "1.0.1",
     license: "MIT",
     type: "module",
     sideEffects: false,

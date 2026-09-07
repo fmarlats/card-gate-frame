@@ -1,13 +1,21 @@
 {
   "name": "card-gate-frame",
-  "version": "1.0.0",
-  "description": "Deterministic ornamental SVG frames for prepared HTML containers and DOM-free generation.",
+  "version": "1.0.1",
+  "description": "Generate ornamental SVG frames and decorative borders for HTML cards. French ironwork styles, seeded generation, TypeScript, zero runtime dependencies.",
   "keywords": [
     "svg",
     "frame",
     "ornament",
     "deterministic",
-    "typescript"
+    "typescript",
+    "javascript",
+    "generative-art",
+    "creative-coding",
+    "procedural-generation",
+    "svg-generator",
+    "svg-frame",
+    "decorative-borders",
+    "zero-dependencies"
   ],
   "type": "module",
   "license": "MIT",
@@ -39,7 +47,7 @@
     "dev": "pnpm build && vite examples/vanilla",
     "demo:readme": "pnpm build && node scripts/generate-readme-demo.mjs",
     "build": "tsdown",
-    "example:build": "pnpm build && vite build examples/vanilla",
+    "example:build": "pnpm build && vite build examples/vanilla --outDir ../../build --emptyOutDir --base /card-gate-frame/",
     "check:format": "biome format .",
     "check:lint": "biome lint src tests scripts examples package.json playwright.config.ts tsdown.config.ts vitest.config.ts tsconfig*.json",
     "check:types": "tsc -p tsconfig.core.json --noEmit && tsc -p tsconfig.dom.json --noEmit && tsc -p tsconfig.test.json --noEmit",
@@ -70,7 +78,7 @@
     "type": "git",
     "url": "git+https://github.com/fmarlats/card-gate-frame.git"
   },
-  "homepage": "https://github.com/fmarlats/card-gate-frame",
+  "homepage": "https://fmarlats.github.io/card-gate-frame/",
   "bugs": {
     "url": "https://github.com/fmarlats/card-gate-frame/issues"
   },
